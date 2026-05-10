@@ -1,0 +1,30 @@
+wp-scanner/
+├── .gitignore                  
+├── LICENSE                     
+├── README.md                   
+├── requirements.txt
+├── scanner.py                  
+├── core/
+│   ├── __init__.py             
+│   ├── scanner.py
+│   └── base_detector.py
+├── detectors/
+│   ├── __init__.py
+│   ├── wordpress_detect.py
+│   ├── version.py
+│   ├── theme_plugin_enum.py
+│   ├── exposed_endpoints.py
+│   ├── directory_listing.py
+│   ├── debug_exposure.py
+│   ├── backdoor_patterns.py
+│   ├── security_headers.py
+│   ├── authentication.py
+│   ├── misconfig.py
+│   └── sensitive_files.py
+├── reporting/
+│   ├── __init__.py
+│   └── report.py
+└── utils/
+    ├── __init__.py
+    ├── helpers.py
+    └── http.py
